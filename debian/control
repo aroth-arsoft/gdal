@@ -26,7 +26,6 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: proj-bin
-Provides: libgdal1
 Replaces: libgdal1
 Conflicts: libgdal1 (<= 1.10.0-0~)
 Breaks: libgdal1-1.6.0
@@ -48,6 +47,13 @@ Description: Geospatial Data Abstraction Library
  TIGER data, S57, MapInfo File, DGN, GML and more.
  .
  This package contains the shared library.
+
+Package: libgdal1
+Section: libs
+Architecture: any
+Depends: libgdal1h (=${binary:Version})
+Description: transitional package for libgdal1h
+ transitional package for libgdal1h
 
 Package: libgdal1-dev
 Section: libdevel

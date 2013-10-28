@@ -1,3 +1,9 @@
+gdal (1.10.1-0cdb1.1~aroth~ppa3) saucy; urgency=low
+
+  * add libgdal1 as transition package to keep qgis and others happy
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Mon, 28 Oct 2013 06:51:15 +0100
+
 gdal (1.10.1-0cdb1.1~aroth~ppa2) saucy; urgency=low
 
   * add provide libgdal1 to solve depends issues
