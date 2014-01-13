@@ -1,3 +1,9 @@
+gdal (1.10.1+dfsg-2.1~saucy1) saucy; urgency=low
+
+  * rebuild for saucy
+
+ -- Andreas Roth <aroth@arsoft-online.com>  Mon, 13 Jan 2014 07:30:46 +0100
+
 gdal (1.10.1+dfsg-2~saucy1) saucy; urgency=low
 
   * Launchpad build for Saucy.
